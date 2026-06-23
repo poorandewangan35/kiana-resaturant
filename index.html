@@ -511,11 +511,15 @@
   </section>
 
   <!-- BOOKING / LEAD GENERATION FORM -->
-  <section id="booking" class="py-20 lg:py-28 bg-charcoal relative">
-    <div class="absolute bottom-10 left-10 w-[300px] h-[300px] bg-gold/5 rounded-full blur-[100px] pointer-events-none"></div>
+  <section id="booking" class="relative py-20 lg:py-28 bg-cover bg-center bg-no-repeat overflow-hidden" style="background-image: url('images/kiana_booking_bg.png');">
+    <!-- Dark overlay covering the whole section background -->
+    <div class="absolute inset-0 bg-charcoal/90 z-0"></div>
 
-    <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
-      <div class="bg-charcoal-accent border border-gold/20 rounded-3xl p-8 sm:p-12 shadow-2xl relative overflow-hidden">
+    <!-- Glowing background gold spot -->
+    <div class="absolute bottom-10 left-10 w-[300px] h-[300px] bg-gold/5 rounded-full blur-[100px] pointer-events-none z-10"></div>
+
+    <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 relative z-20">
+      <div class="bg-charcoal-accent/90 backdrop-blur-md border border-gold/20 rounded-3xl p-8 sm:p-12 shadow-2xl relative overflow-hidden">
         <!-- Floating details -->
         <div class="absolute -top-10 -right-10 w-40 h-40 bg-gold/5 rounded-full pointer-events-none"></div>
 
