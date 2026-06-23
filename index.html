@@ -154,6 +154,7 @@
       <nav class="hidden md:flex items-center gap-8">
         <a href="#features" class="text-sm font-medium tracking-wide hover:text-gold transition-colors duration-300">Why Kiana</a>
         <a href="#menu" class="text-sm font-medium tracking-wide hover:text-gold transition-colors duration-300">Signature Menu</a>
+        <a href="#reviews" class="text-sm font-medium tracking-wide hover:text-gold transition-colors duration-300">Reviews</a>
         <a href="#booking" class="text-sm font-medium tracking-wide hover:text-gold transition-colors duration-300">Book Event/Table</a>
         <a href="#location" class="text-sm font-medium tracking-wide hover:text-gold transition-colors duration-300">Location</a>
       </nav>
@@ -180,6 +181,7 @@
     <div id="mobile-menu" class="hidden md:hidden bg-charcoal border-b border-gold/10 px-4 pt-2 pb-6 flex flex-col gap-4 animate-fade-in">
       <a href="#features" class="mobile-link text-lg font-medium text-slate-300 hover:text-gold transition-colors py-2">Why Kiana</a>
       <a href="#menu" class="mobile-link text-lg font-medium text-slate-300 hover:text-gold transition-colors py-2">Signature Menu</a>
+      <a href="#reviews" class="mobile-link text-lg font-medium text-slate-300 hover:text-gold transition-colors py-2">Reviews</a>
       <a href="#booking" class="mobile-link text-lg font-medium text-slate-300 hover:text-gold transition-colors py-2">Book Event/Table</a>
       <a href="#location" class="mobile-link text-lg font-medium text-slate-300 hover:text-gold transition-colors py-2">Location</a>
       <div class="flex flex-col gap-3 mt-4">
@@ -505,6 +507,256 @@
               Reserve Table To Order
             </a>
           </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- GOOGLE REVIEWS SECTION -->
+  <section id="reviews" class="py-20 lg:py-28 bg-charcoal relative border-t border-gold/10 overflow-hidden">
+    <!-- Glowing background gold spot -->
+    <div class="absolute top-1/2 left-1/4 -translate-y-1/2 w-[350px] h-[350px] bg-gold/5 rounded-full blur-[100px] pointer-events-none"></div>
+
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+      <div class="text-center max-w-3xl mx-auto mb-16">
+        <span class="text-gold font-semibold uppercase tracking-widest text-xs">Customer Testimonials</span>
+        <h2 class="font-playfair text-3xl sm:text-4xl font-bold text-white mt-2 mb-4">
+          What Our Guests Say on Google
+        </h2>
+        <div class="w-24 h-1 bg-gold mx-auto mb-6"></div>
+        <p class="text-slate-400 font-light text-lg">
+          We pride ourselves on offering a memorable dining experience. Read some of our recent Google reviews.
+        </p>
+      </div>
+
+      <!-- Carousel Container -->
+      <div class="relative px-4 sm:px-8">
+        <!-- Review Cards Wrapper -->
+        <div class="overflow-hidden">
+          <div id="reviews-track" class="flex transition-transform duration-500 ease-in-out gap-6" style="transform: translateX(0px);">
+            <!-- Review 1 -->
+            <div class="review-card min-w-full md:min-w-[calc(50%-12px)] lg:min-w-[calc(33.333%-16px)] bg-charcoal-accent border border-gold/10 p-8 rounded-2xl flex flex-col justify-between shadow-xl">
+              <div>
+                <div class="flex items-center gap-1 text-gold mb-4">
+                  &#9733;&#9733;&#9733;&#9733;&#9733;
+                </div>
+                <p class="text-slate-300 font-light text-sm italic leading-relaxed mb-6">
+                  "Kiana is one of the best family dining spots in Bajaj Nagar. The ambience is incredibly premium and the lighting is gorgeous. We tried the Butter Chicken and Garlic Naan, both were delicious. Free valet parking is a big plus!"
+                </p>
+              </div>
+              <div class="flex items-center gap-3 border-t border-slate-800 pt-4">
+                <div class="w-10 h-10 rounded-full bg-gold/15 flex items-center justify-center text-gold font-bold text-sm">
+                  RS
+                </div>
+                <div>
+                  <h4 class="font-medium text-white text-sm">Rohan Sharma</h4>
+                  <p class="text-xs text-slate-500">Local Guide • Google Review</p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Review 2 -->
+            <div class="review-card min-w-full md:min-w-[calc(50%-12px)] lg:min-w-[calc(33.333%-16px)] bg-charcoal-accent border border-gold/10 p-8 rounded-2xl flex flex-col justify-between shadow-xl">
+              <div>
+                <div class="flex items-center gap-1 text-gold mb-4">
+                  &#9733;&#9733;&#9733;&#9733;&#9733;
+                </div>
+                <p class="text-slate-300 font-light text-sm italic leading-relaxed mb-6">
+                  "Great taste and very pocket-friendly menu compared to other fine dine restaurants in Nagpur. Their Paneer Lababdar was rich and creamy. Service is polite, though slightly slow on busy Sunday evenings."
+                </p>
+              </div>
+              <div class="flex items-center gap-3 border-t border-slate-800 pt-4">
+                <div class="w-10 h-10 rounded-full bg-gold/15 flex items-center justify-center text-gold font-bold text-sm">
+                  PD
+                </div>
+                <div>
+                  <h4 class="font-medium text-white text-sm">Priya Deshmukh</h4>
+                  <p class="text-xs text-slate-500">Google Review</p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Review 3 -->
+            <div class="review-card min-w-full md:min-w-[calc(50%-12px)] lg:min-w-[calc(33.333%-16px)] bg-charcoal-accent border border-gold/10 p-8 rounded-2xl flex flex-col justify-between shadow-xl">
+              <div>
+                <div class="flex items-center gap-1 text-gold mb-4">
+                  &#9733;&#9733;&#9733;&#9733;&#9733;
+                </div>
+                <p class="text-slate-300 font-light text-sm italic leading-relaxed mb-6">
+                  "We booked their banquet hall for my daughter's birthday party. The management did an excellent job. Food quality was top notch, especially the Paneer Tikka. All 80 guests loved it."
+                </p>
+              </div>
+              <div class="flex items-center gap-3 border-t border-slate-800 pt-4">
+                <div class="w-10 h-10 rounded-full bg-gold/15 flex items-center justify-center text-gold font-bold text-sm">
+                  AT
+                </div>
+                <div>
+                  <h4 class="font-medium text-white text-sm">Abhishek Tiwari</h4>
+                  <p class="text-xs text-slate-500">Google Review</p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Review 4 -->
+            <div class="review-card min-w-full md:min-w-[calc(50%-12px)] lg:min-w-[calc(33.333%-16px)] bg-charcoal-accent border border-gold/10 p-8 rounded-2xl flex flex-col justify-between shadow-xl">
+              <div>
+                <div class="flex items-center gap-1 text-gold mb-4">
+                  &#9733;&#9733;&#9733;&#9733;&#9733;
+                </div>
+                <p class="text-slate-300 font-light text-sm italic leading-relaxed mb-6">
+                  "Amazing multi-cuisine restaurant! The mocktails are beautifully presented. Loved the Golden Sunrise mocktail. Cozy and elegant place for family dinner."
+                </p>
+              </div>
+              <div class="flex items-center gap-3 border-t border-slate-800 pt-4">
+                <div class="w-10 h-10 rounded-full bg-gold/15 flex items-center justify-center text-gold font-bold text-sm">
+                  AR
+                </div>
+                <div>
+                  <h4 class="font-medium text-white text-sm">Anjali Rao</h4>
+                  <p class="text-xs text-slate-500">Google Review</p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Review 5 -->
+            <div class="review-card min-w-full md:min-w-[calc(50%-12px)] lg:min-w-[calc(33.333%-16px)] bg-charcoal-accent border border-gold/10 p-8 rounded-2xl flex flex-col justify-between shadow-xl">
+              <div>
+                <div class="flex items-center gap-1 text-gold mb-4">
+                  &#9733;&#9733;&#9733;&#9733;&#9734;
+                </div>
+                <p class="text-slate-300 font-light text-sm italic leading-relaxed mb-6">
+                  "Great food quality. Highly recommend the Mutton Seekh Kebab and Dal Makhani. The decor looks very premium. Parking space is a bit tight but valet service makes it easy."
+                </p>
+              </div>
+              <div class="flex items-center gap-3 border-t border-slate-800 pt-4">
+                <div class="w-10 h-10 rounded-full bg-gold/15 flex items-center justify-center text-gold font-bold text-sm">
+                  MP
+                </div>
+                <div>
+                  <h4 class="font-medium text-white text-sm">Manish Patel</h4>
+                  <p class="text-xs text-slate-500">Google Review</p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Review 6 -->
+            <div class="review-card min-w-full md:min-w-[calc(50%-12px)] lg:min-w-[calc(33.333%-16px)] bg-charcoal-accent border border-gold/10 p-8 rounded-2xl flex flex-col justify-between shadow-xl">
+              <div>
+                <div class="flex items-center gap-1 text-gold mb-4">
+                  &#9733;&#9733;&#9733;&#9733;&#9733;
+                </div>
+                <p class="text-slate-300 font-light text-sm italic leading-relaxed mb-6">
+                  "Loved the tandoori starters! Kiana Special Chicken Platter is a must try. The staff was very courteous. Perfect place to celebrate anniversaries."
+                </p>
+              </div>
+              <div class="flex items-center gap-3 border-t border-slate-800 pt-4">
+                <div class="w-10 h-10 rounded-full bg-gold/15 flex items-center justify-center text-gold font-bold text-sm">
+                  SW
+                </div>
+                <div>
+                  <h4 class="font-medium text-white text-sm">Sneha Wankhede</h4>
+                  <p class="text-xs text-slate-500">Google Review</p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Review 7 -->
+            <div class="review-card min-w-full md:min-w-[calc(50%-12px)] lg:min-w-[calc(33.333%-16px)] bg-charcoal-accent border border-gold/10 p-8 rounded-2xl flex flex-col justify-between shadow-xl">
+              <div>
+                <div class="flex items-center gap-1 text-gold mb-4">
+                  &#9733;&#9733;&#9733;&#9733;&#9734;
+                </div>
+                <p class="text-slate-300 font-light text-sm italic leading-relaxed mb-6">
+                  "Excellent North Indian taste. Quantity and quality are both very good for the price. The ambience has a royal feel with the gold and blue accents."
+                </p>
+              </div>
+              <div class="flex items-center gap-3 border-t border-slate-800 pt-4">
+                <div class="w-10 h-10 rounded-full bg-gold/15 flex items-center justify-center text-gold font-bold text-sm">
+                  RJ
+                </div>
+                <div>
+                  <h4 class="font-medium text-white text-sm">Rajesh Joshi</h4>
+                  <p class="text-xs text-slate-500">Google Review</p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Review 8 -->
+            <div class="review-card min-w-full md:min-w-[calc(50%-12px)] lg:min-w-[calc(33.333%-16px)] bg-charcoal-accent border border-gold/10 p-8 rounded-2xl flex flex-col justify-between shadow-xl">
+              <div>
+                <div class="flex items-center gap-1 text-gold mb-4">
+                  &#9733;&#9733;&#9733;&#9733;&#9733;
+                </div>
+                <p class="text-slate-300 font-light text-sm italic leading-relaxed mb-6">
+                  "Best budget-friendly luxury dining in Bajaj Nagar. Clean washrooms, elegant setups, and delicious food. Paneer Malai Tikka was incredibly soft."
+                </p>
+              </div>
+              <div class="flex items-center gap-3 border-t border-slate-800 pt-4">
+                <div class="w-10 h-10 rounded-full bg-gold/15 flex items-center justify-center text-gold font-bold text-sm">
+                  KS
+                </div>
+                <div>
+                  <h4 class="font-medium text-white text-sm">Kiran Sen</h4>
+                  <p class="text-xs text-slate-500">Google Review</p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Review 9 -->
+            <div class="review-card min-w-full md:min-w-[calc(50%-12px)] lg:min-w-[calc(33.333%-16px)] bg-charcoal-accent border border-gold/10 p-8 rounded-2xl flex flex-col justify-between shadow-xl">
+              <div>
+                <div class="flex items-center gap-1 text-gold mb-4">
+                  &#9733;&#9733;&#9733;&#9733;&#9734;
+                </div>
+                <p class="text-slate-300 font-light text-sm italic leading-relaxed mb-6">
+                  "Perfect venue for small family get-togethers. The food was hot and delicious, and the service was quick on weekdays. Will visit again."
+                </p>
+              </div>
+              <div class="flex items-center gap-3 border-t border-slate-800 pt-4">
+                <div class="w-10 h-10 rounded-full bg-gold/15 flex items-center justify-center text-gold font-bold text-sm">
+                  VS
+                </div>
+                <div>
+                  <h4 class="font-medium text-white text-sm">Vikram Singh</h4>
+                  <p class="text-xs text-slate-500">Google Review</p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Review 10 -->
+            <div class="review-card min-w-full md:min-w-[calc(50%-12px)] lg:min-w-[calc(33.333%-16px)] bg-charcoal-accent border border-gold/10 p-8 rounded-2xl flex flex-col justify-between shadow-xl">
+              <div>
+                <div class="flex items-center gap-1 text-gold mb-4">
+                  &#9733;&#9733;&#9733;&#9733;&#9733;
+                </div>
+                <p class="text-slate-300 font-light text-sm italic leading-relaxed mb-6">
+                  "A hidden gem in Bajaj Nagar. Amazingly affordable fine dining. The Dal Makhani Dum Pukht is outstanding. Will definitely recommend Kiana!"
+                </p>
+              </div>
+              <div class="flex items-center gap-3 border-t border-slate-800 pt-4">
+                <div class="w-10 h-10 rounded-full bg-gold/15 flex items-center justify-center text-gold font-bold text-sm">
+                  NG
+                </div>
+                <div>
+                  <h4 class="font-medium text-white text-sm">Neha Gupta</h4>
+                  <p class="text-xs text-slate-500">Google Review</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Controls -->
+        <button id="prev-review-btn" class="absolute left-0 top-1/2 -translate-y-1/2 -translate-x-2 sm:-translate-x-6 w-12 h-12 rounded-full bg-charcoal border border-gold/20 text-gold flex items-center justify-center hover:bg-gold hover:text-charcoal transition-all shadow-lg z-20" aria-label="Previous Review">
+          <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"></path></svg>
+        </button>
+        <button id="next-review-btn" class="absolute right-0 top-1/2 -translate-y-1/2 translate-x-2 sm:translate-x-6 w-12 h-12 rounded-full bg-charcoal border border-gold/20 text-gold flex items-center justify-center hover:bg-gold hover:text-charcoal transition-all shadow-lg z-20" aria-label="Next Review">
+          <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path></svg>
+        </button>
+
+        <!-- Indicators -->
+        <div id="reviews-indicators" class="flex justify-center gap-2 mt-8">
+          <!-- Dots will be populated by JS -->
         </div>
       </div>
     </div>
@@ -941,6 +1193,156 @@
         }
       });
     }
+
+    // Reviews Carousel Logic
+    const track = document.getElementById('reviews-track');
+    const prevBtn = document.getElementById('prev-review-btn');
+    const nextBtn = document.getElementById('next-review-btn');
+    const indicatorsContainer = document.getElementById('reviews-indicators');
+    const cards = document.querySelectorAll('.review-card');
+
+    let currentIndex = 0;
+
+    function getItemsPerSlide() {
+      if (window.innerWidth >= 1024) return 3; // Desktop
+      if (window.innerWidth >= 768) return 2;  // Tablet
+      return 1;                                // Mobile
+    }
+
+    function getMaxIndex() {
+      return cards.length - getItemsPerSlide();
+    }
+
+    function updateCarousel() {
+      // Bound index
+      const maxIndex = getMaxIndex();
+      if (currentIndex > maxIndex) currentIndex = maxIndex;
+      if (currentIndex < 0) currentIndex = 0;
+
+      // Calculate translation
+      const cardWidth = cards[0].offsetWidth;
+      // The gap between cards is 24px (gap-6 in Tailwind is 1.5rem = 24px)
+      const gap = 24; 
+      const translation = currentIndex * (cardWidth + gap);
+      track.style.transform = `translateX(-${translation}px)`;
+
+      // Update indicators
+      updateIndicators();
+
+      // Disable/enable buttons at bounds
+      prevBtn.style.opacity = currentIndex === 0 ? '0.5' : '1';
+      prevBtn.style.pointerEvents = currentIndex === 0 ? 'none' : 'auto';
+      nextBtn.style.opacity = currentIndex === maxIndex ? '0.5' : '1';
+      nextBtn.style.pointerEvents = currentIndex === maxIndex ? 'none' : 'auto';
+    }
+
+    function createIndicators() {
+      indicatorsContainer.innerHTML = '';
+      const maxIndex = getMaxIndex();
+      // We only need indicator dots up to the max index
+      for (let i = 0; i <= maxIndex; i++) {
+        const dot = document.createElement('button');
+        dot.className = `w-2.5 h-2.5 rounded-full transition-all duration-300 ${i === currentIndex ? 'bg-gold w-6' : 'bg-slate-700 hover:bg-slate-500'}`;
+        dot.setAttribute('aria-label', `Go to slide ${i + 1}`);
+        dot.addEventListener('click', () => {
+          currentIndex = i;
+          updateCarousel();
+        });
+        indicatorsContainer.appendChild(dot);
+      }
+    }
+
+    function updateIndicators() {
+      const dots = indicatorsContainer.querySelectorAll('button');
+      dots.forEach((dot, i) => {
+        if (i === currentIndex) {
+          dot.className = 'w-2.5 h-2.5 rounded-full transition-all duration-300 bg-gold w-6';
+          dot.style.width = '24px';
+        } else {
+          dot.className = 'w-2.5 h-2.5 rounded-full transition-all duration-300 bg-slate-700 hover:bg-slate-500';
+          dot.style.width = '10px';
+        }
+      });
+    }
+
+    prevBtn.addEventListener('click', () => {
+      if (currentIndex > 0) {
+        currentIndex--;
+        updateCarousel();
+      }
+    });
+
+    nextBtn.addEventListener('click', () => {
+      const maxIndex = getMaxIndex();
+      if (currentIndex < maxIndex) {
+        currentIndex++;
+        updateCarousel();
+      }
+    });
+
+    // Touch Swipe Support
+    let startX = 0;
+    let isSwiping = false;
+
+    track.addEventListener('touchstart', (e) => {
+      startX = e.touches[0].clientX;
+      isSwiping = true;
+    });
+
+    track.addEventListener('touchmove', (e) => {
+      if (!isSwiping) return;
+      const diffX = e.touches[0].clientX - startX;
+      if (Math.abs(diffX) > 50) {
+        if (diffX > 0 && currentIndex > 0) {
+          currentIndex--;
+          updateCarousel();
+        } else if (diffX < 0 && currentIndex < getMaxIndex()) {
+          currentIndex++;
+          updateCarousel();
+        }
+        isSwiping = false;
+      }
+    });
+
+    track.addEventListener('touchend', () => {
+      isSwiping = false;
+    });
+
+    // Initial setup and resize handler
+    window.addEventListener('resize', () => {
+      createIndicators();
+      updateCarousel();
+    });
+
+    // Initialize
+    createIndicators();
+    updateCarousel();
+
+    // Auto-scroll every 6 seconds
+    let autoScrollInterval = setInterval(() => {
+      const maxIndex = getMaxIndex();
+      if (currentIndex < maxIndex) {
+        currentIndex++;
+      } else {
+        currentIndex = 0;
+      }
+      updateCarousel();
+    }, 6000);
+
+    // Pause auto-scroll on hover/interaction
+    const container = document.getElementById('reviews-track').parentElement;
+    container.addEventListener('mouseenter', () => clearInterval(autoScrollInterval));
+    container.addEventListener('mouseleave', () => {
+      autoScrollInterval = setInterval(() => {
+        const maxIndex = getMaxIndex();
+        if (currentIndex < maxIndex) {
+          currentIndex++;
+        } else {
+          currentIndex = 0;
+        }
+        updateCarousel();
+      }, 6000);
+    });
   </script>
 </body>
 </html>
